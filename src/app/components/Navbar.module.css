@@ -1,0 +1,103 @@
+.navigation{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 16px;
+    background-color: #f5ebdc;
+}
+
+.nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 58px;
+    padding: 2px;
+    top: 0;
+    background-color: #f5ebdc;
+    z-index: 100;
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.06);
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.06);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.06);
+}
+.logo{
+    width:3.5%;
+    margin-left: 12%;
+}
+.img-logo{
+    width: 55px;
+}
+
+.ul-links{
+    display: flex;
+    margin-left: 4%;
+}
+
+.navigation > li{
+    list-style: none;
+}
+
+.links{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navigation > li > a{
+    text-decoration: none;
+    color: rgb(99, 24, 3);
+    padding: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Flame-Regular,sans-serif;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.seccionLinks{
+    margin-top: 4%;
+    position: fixed;
+    width: 100%;
+    height: 57px;
+    padding: 2px;
+    display: flex;
+    background-color: #f5ebdc;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px -4px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 0px 4px 10px -4px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 4px 10px -4px rgba(0,0,0,0.39);
+}
+.link2 {
+    display: flex;
+    padding: 2px;
+}
+.seccionLinks > ul > li{
+    list-style: none;
+    padding: 15px;
+    
+    
+}
+.seccionLinks > ul > li > .menuLinks2{
+    text-decoration: none;
+    color: rgb(99, 24, 3);
+    font-size:105%;
+    font-weight: bold;
+    font-family: Flame-Regular,sans-serif;
+}
+
+/*************************EFECTOS HOVER Y MÁS**********************/
+@media(hover:hover){
+    .navigation> li > a:hover{
+        color:rgb(203, 46, 2);
+        border-bottom: 1px solid rgb(203, 46, 2);
+    }
+    div.columna1 > img:hover{
+        transform: scale(1.03); 
+    }
+    .cs-img1 > img:hover, .cs3-img1 > img:hover{
+        transform: scale(1.03);
+    }
+    div.cs1-img1 > img:hover,div.cs2-img1 > img:hover,div.cs3-img1 > img:hover{
+        transform:scale(1.03);
+    }
+}

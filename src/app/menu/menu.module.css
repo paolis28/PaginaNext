@@ -1,0 +1,227 @@
+.main{
+    background-color: #f5ebdc;
+    margin: 0;
+    padding-top: 6%;
+    scroll-behavior: smooth;
+}
+.menuLink.active {
+    /* Estilos para el enlace activo */
+    background-color: rgb(218, 5, 5);
+    color: white;
+    border-radius: 12px;
+    font-weight: bold;
+    padding: 4px;
+  }
+.alaParrilla{
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 13%;
+}
+
+.li{
+    list-style: none;
+}
+.titulo{
+    font-family: Flame-Regular;
+    font-weight: 800;
+    font-size: 1.5em;
+    color: #502314;
+}
+.navi{
+    position: relative;
+    z-index: 1;
+}
+.navigation{
+    display: flex;
+}
+.navigation > li{
+    list-style: none;
+    padding: 2px;
+}
+.li > a{
+    text-decoration: none;
+}
+.liView{
+    margin-left: 70%;
+}
+.a{
+    text-decoration: none;
+    color: rgb(63, 15, 2);
+}
+
+.containerParrilla{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% auto; 
+    gap:10px;
+    grid-auto-rows: auto; 
+}
+.columna1{
+    /* background-color: aqua; */
+    grid-column: 1/1;
+    grid-row: 1;
+    width: 100%;
+    text-align: center;
+    color: rgb(63, 15, 2);
+    font-family: Flame-Regular;
+    font-weight: bold;
+    text-decoration: none;
+}
+.columna2{
+    grid-column: 2/2;
+    grid-row: 1;
+    width: 100%;
+    text-align: center;
+    color: rgb(63, 15, 2);
+    font-family: Flame-Regular;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.columna3{
+    grid-column: 3/3;
+    grid-row: 1;
+    width: 78%;
+    transition: transform 0.03s;
+    text-align: center;
+    color: rgb(63, 15, 2);
+    font-family: Flame-Regular;
+    font-weight: bold;
+    max-height: 150px;
+    height: auto;
+    text-decoration: none;
+}
+
+.ul-Menu{
+    display: flex;
+}
+.ul-Menu > li{
+    list-style: none;
+    padding: 2px;
+}
+.li-view{
+    margin-left: 70%;
+}
+.link{
+    text-decoration: none;
+    color: rgb(63, 15, 2);
+}
+
+/************************************cafbebidas*******************************/
+div.containerG{
+    padding-top: 3%;
+    width: 80%;
+    margin-left: 10%;
+}
+.containerProducto{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% auto; 
+    gap:10px;
+    grid-auto-rows: auto; 
+    justify-content: space-between;
+}
+div.containerProducto > .columna1{
+    grid-column: 1/1;
+    grid-row: 1;
+    width: 100%;
+    text-align: center;
+    color: rgb(63, 15, 2);
+    font-family: Flame-Regular;
+    font-weight: bold;
+    text-decoration: none;
+}
+div.containerProducto > .columna2{
+    grid-column: 2/2;
+    grid-row: 1;
+    width: 100%;
+    text-align: center;
+    color: rgb(63, 15, 2);
+    font-family: Flame-Regular;
+    font-weight: bold;
+    text-decoration: none;
+}
+div.containerProducto > .columna3{
+    grid-column: 3/3;
+    grid-row: 1;
+    width: 77%;
+    transition: transform 0.03s;
+    text-align: center;
+    color: rgb(63, 15, 2);
+    font-family: Flame-Regular;
+    font-weight: bold;
+    text-decoration: none;
+}
+.img{
+    transition: transform 0.5s;
+}
+
+@media(hover:hover){
+    .ullinks > li > a:hover{
+        color:rgb(203, 46, 2);
+        border-bottom: 1px solid rgb(203, 46, 2);
+    }
+    .img:hover{
+        transform:scale(1.03);
+    }
+}
+
+/*********************CODIGO DEL FOOTER******************************/
+.footer{
+    background-color: #502314;
+    height: 75%;
+}
+.fooContainer{
+    padding: 2%;
+    width: 96%;
+    height: 60%;
+    display: flex;
+}
+.logo{
+    width: 55%;
+}
+div.foo-container > div.logo > img{
+    width: 20%;
+    margin-top: 5%;
+}
+.linksFoo{
+    width: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h2{
+    margin-left: 16%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.li{
+    list-style: none;
+    padding: 10px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 103%;
+}
+
+.hr{
+    width: 72%;
+}
+.redes {
+    display: flex;
+    width: 72%;
+    margin-left: 13.5%;
+    padding: 10px;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.p{
+    font-size: 80%;
+    color: white;
+    flex: 1; 
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
